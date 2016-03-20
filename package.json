@@ -1,0 +1,21 @@
+{
+  "name": "json-inspector",
+  "version": "0.0.0",
+  "description": "SImple tool to access values from json using string paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "author": "Nathan Richards <nathan.richards.500@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jasmine": "^1.0.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-template-jasmine-requirejs": "^0.2.3"
+  }
+}
