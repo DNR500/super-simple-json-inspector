@@ -12,7 +12,7 @@ define([], function() {
             }
 
             if(stepValue.constructor === Array){
-                stepValue = stepValue[parseInt(nextStep)];
+                stepValue = stepValue[parseInt(nextStep, 10)];
             } else {
                 stepValue = stepValue[nextStep];
             }
